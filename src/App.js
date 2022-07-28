@@ -1,6 +1,7 @@
 import { Nav } from "./components/Nav/Nav";
 import { Home } from "./components/Home/Home";
 import {Routes, Route} from 'react-router-dom'
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
