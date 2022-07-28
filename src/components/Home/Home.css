@@ -1,0 +1,36 @@
+
+.banner-home{
+    background-image: url(../../images/slide.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-home{
+    width: 90%;
+}
+
+/*-----------------------------------------------------------------*/
+/*-------------------------*MEDIA QUERIES*-------------------------*/
+/*-----------------------------------------------------------------*/
+
+
+/*-------------------------*1700*-------------------------*/
+@media (min-width: 1700px) {
+    .banner-home{
+        height: 500rem;
+    } 
+}
+
+
+/*-------------------------*600*-------------------------*/
+@media (max-width: 600px) {
+
+}
