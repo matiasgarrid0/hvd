@@ -1,19 +1,23 @@
+.contact {
+  padding-top: 10rem;
+}
 .banner-bg-contact {
-  background-image: url("../../images/banner1.jpg");
-  background-position: center;
+  background-image: url("../../images/fabrica.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   width: 100%;
-  height: 15rem;
+  height: 25rem;
 }
 
 .banner-contact-bgblack {
   background-color: rgba(0, 0, 0, 0.3s);
   width: 100%;
-  height: 15rem;
+  height: 25rem;
   display: flex;
   align-items: center;
   justify-content: center;
