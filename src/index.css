@@ -11,12 +11,10 @@ code {
 }
 
 :root{
-  -red : #FF0000;
-  -green: #39AF59;
-  -dark-green: #178700;
-  -yelow: #FFF52C;
+  --red : #FF0000;
+  --light-green: #7dc891;
+  --green: #39AF59;
+  --dark-green: #178700;
+  --yelow: #FFF52C;
 }
 
-.container{
-  width: 90%;
-}
