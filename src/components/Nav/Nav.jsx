@@ -15,7 +15,7 @@ export const Nav = () => {
                 <div className='container-titles-nav'>
                     <Link className="hover-underline-animation" to='/'>Nosotros</Link>
                     <Link className="hover-underline-animation" to={'/'}>Productos</Link>
-                    <Link className="hover-underline-animation" to={'/'}>Contacto</Link>
+                    <Link className="hover-underline-animation" to={'/contact'}>Contacto</Link>
                 </div>
                 <div className='drawer-mobile-nav'>
                     <Drawer/>

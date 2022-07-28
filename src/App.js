@@ -9,6 +9,7 @@ function App() {
       <Nav/>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/contact" element={<Contact/>}/>
       </Routes>
     </div>
   );
