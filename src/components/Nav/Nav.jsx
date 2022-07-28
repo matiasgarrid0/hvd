@@ -3,6 +3,7 @@ import './Nav.css'
 import logo from '../../images/logo.png'
 import { Link } from 'react-router-dom'
 import { useScrollPosition } from '../../CustomHooks/useScrollPosition'
+import { Drawer } from './Drawer'
 
 export const Nav = () => {
     const scrollPosition = useScrollPosition();
@@ -15,6 +16,9 @@ export const Nav = () => {
                     <Link className="hover-underline-animation" to='/'>Nosotros</Link>
                     <Link className="hover-underline-animation" to={'/'}>Productos</Link>
                     <Link className="hover-underline-animation" to={'/'}>Contacto</Link>
+                </div>
+                <div className='drawer-mobile-nav'>
+                    <Drawer/>
                 </div>
             </div>
         </div>
