@@ -68,8 +68,9 @@
   margin-bottom: 2rem;
   padding: 2rem 0rem;
 
+  /* background-image: url("../../images/aceituna.jpg"); */
   background-image: url("../../images/pepinos.jpg");
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
