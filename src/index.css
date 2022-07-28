@@ -9,13 +9,11 @@ code {
     monospace;
 }
 
-:root {
-  --red: #ff0000;
-  --green: #39af59;
+:root{
+  --red : #FF0000;
+  --light-green: #7dc891;
+  --green: #39AF59;
   --dark-green: #178700;
-  --yelow: #fff52c;
+  --yelow: #FFF52C;
 }
 
-/* .container {
-  width: 90%;
-} */
