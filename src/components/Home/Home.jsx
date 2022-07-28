@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { ProductsHome } from "../Products/ProductsHome";
 
 export const Home = () => {
   return (
@@ -25,6 +26,9 @@ export const Home = () => {
             así sumarse a los que confían en nuestra calidad y sabor.
           </p>
         </div>
+      </div>
+      <div>
+        <ProductsHome/>
       </div>
     </div>
   );
