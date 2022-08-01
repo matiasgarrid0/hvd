@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+
+  box-shadow: 0 8px 32px 0 rgba(199, 198, 198, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 2px rgb(224, 220, 220);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(171, 171, 171, 1);
+}
+
+.footer-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Footer LOGO y networks */
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-logo img {
+  width: 250px;
+}
+
+.footer-logo-networks {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo-networks p {
+  padding: 0rem 0.5rem;
+}
+
+.footer-icons {
+  color: var(--dark-green);
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0rem 0.2rem;
+}
+
+/* Footer info elements */
+.footer-info-elements-phone,
+.footer-info-elements-email,
+.footer-info-elements-location {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  height: 150px;
+}
+
+.footer-info-elements-phone div,
+.footer-info-elements-email div,
+.footer-info-elements-location div {
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+}
+
+.elements-icon {
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  color: var(--light-green);
+}
+
+/* PARA QUE NO BUGEE EN ANCHOS BAJOS */
+@media (max-width: 1350px) {
+  .footer-info-elements-phone div,
+  .footer-info-elements-email div,
+  .footer-info-elements-location div {
+    font-size: 14px;
+  }
+  .footer-logo img {
+    width: 150px;
+  }
+  .elements-icon {
+    padding: 0rem 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 2rem 0rem;
+  }
+
+  .footer-logo {
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-logo-networks p {
+    padding: 0rem 0.5rem;
+  }
+
+  .footer-logo img {
+    width: 250px;
+  }
+
+  .footer-info-elements-phone,
+  .footer-info-elements-email,
+  .footer-info-elements-location {
+    padding: 1rem;
+    width: 90%;
+    height: 110px;
+    align-items: center;
+  }
+
+  .footer-info-elements-phone div,
+  .footer-info-elements-email div,
+  .footer-info-elements-location div {
+    font-size: 17px;
+  }
+}

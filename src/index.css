@@ -9,11 +9,17 @@ code {
     monospace;
 }
 
-:root{
-  --red : #FF0000;
+:root {
+  --red: #ff0000;
   --light-green: #7dc891;
-  --green: #39AF59;
+  --green: #39af59;
   --dark-green: #178700;
-  --yelow: #FFF52C;
-}
+  --yelow: #fff52c;
 
+  /* //Swiper config */
+  --swiper-navigation-color: white;
+  --swiper-pagination-bullet-size: 18px;
+  --swiper-pagination-color: var(--dark-green);
+  --swiper-pagination-bullet-inactive-color: white;
+  --swiper-pagination-bullet-inactive-opacity: 0.7;
+}

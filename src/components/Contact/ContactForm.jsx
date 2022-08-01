@@ -96,9 +96,7 @@ export const ContactForm = () => {
                             maxLength={1000}
                         />
                     </div>
-                    <button type='submit' className="app__button">
-                        Enviar
-                    </button>
+                    <button className="button-contact">Enviar</button>
                 </form>
             </div>
         </div>
