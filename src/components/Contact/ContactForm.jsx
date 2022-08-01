@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { useFormik } from 'formik';
+import { useFormik } from 'formik'
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -96,9 +96,7 @@ export const ContactForm = () => {
                             maxLength={1000}
                         />
                     </div>
-                    <button type='submit' className="app__button">
-                        Enviar
-                    </button>
+                    <button className="button-contact">Enviar</button>
                 </form>
             </div>
         </div>
