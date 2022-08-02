@@ -19,7 +19,7 @@ export const Slider = () => {
                 <Swiper
                     spaceBetween={30}
                     effect={"fade"}
-                    // navigation={true}
+                    navigation={true}
                     loop={true}
                     pagination={{
                         dynamicBullets: true,
