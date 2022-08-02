@@ -50,6 +50,11 @@
   display: flex;
   justify-content: space-between;
 }
+.products-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container-titles-nav a {
   text-decoration: none;
   color: black;
@@ -58,7 +63,6 @@
 }
 
 .hover-underline-animation {
-  display: inline-block;
   position: relative;
   color: var(--green);
   padding-bottom: 0.4rem;

@@ -8,7 +8,7 @@ export const Contact = () => {
         <div className='contact'>
             <div className="banner-bg-contact">
                 <div className="banner-contact-bgblack">
-                    {/* <p className="p-title-contact">Contacto</p> */}
+                    <p className='p-title-contact'>Contacto</p>
                 </div>
             </div>
             <div className="contact-elements">
