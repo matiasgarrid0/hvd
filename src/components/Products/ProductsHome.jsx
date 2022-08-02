@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./Products.css";
 import Pickles from "../../images/pickles.jpg";
+import Antipasto from '../../images/antipasto.jpg'
+import Berenjena from '../../images/berenjena.jpg'
 import Aos from "aos";
 
 export const ProductsHome = () => {
@@ -24,14 +26,14 @@ export const ProductsHome = () => {
             <button className="button-products-home">Pickles</button>
           </div>
           <div className="card-products-home">
-            <img className="img-products-home" src={Pickles} alt="pickles" />
+            <img className="img-products-home" src={Antipasto} alt="antipasto" />
             <button data-aos="flip-up" className="button-products-home">
-              Pickles
+              Antipasto
             </button>
           </div>
           <div className="card-products-home">
-            <img className="img-products-home" src={Pickles} alt="pickles" />
-            <button className="button-products-home">Pickles</button>
+            <img className="img-products-home" src={Berenjena} alt="berenjena" />
+            <button className="button-products-home">Berenjena</button>
           </div>
         </div>
         <button className="button-products-home">Conocé todos nuestros productos</button>

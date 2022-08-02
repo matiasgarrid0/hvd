@@ -27,11 +27,13 @@ export const Nav = () => {
     >
       <div className="container-nav">
         <div className="container-elements-nav">
-          <img
+       <Link to={'/'}>
+       <img
             className={scrollPosition > 10 ? "logo-nav-scroll" : "logo-nav"}
             src={logo}
             alt="horvindul"
           />
+       </Link>
           <div className="container-titles-nav">
             <Link className="hover-underline-animation" to="/">
               Nosotros
@@ -45,7 +47,7 @@ export const Nav = () => {
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
             >
-              Productos <RiArrowDownSLine />{" "}
+              Productos <RiArrowDownSLine color="#178700" />{" "}
        
             </Link>
             <Menu
@@ -59,9 +61,9 @@ export const Nav = () => {
                 TransitionComponent={Fade}
                 disableScrollLock={true}
               >
-                <MenuItem onClick={handleClose}>Pickles</MenuItem>
+                <MenuItem onClick={handleClose}><Link to={'/pickles'}>Pickles</Link></MenuItem>
                 <MenuItem onClick={handleClose}>Mermeladas</MenuItem>
-                <MenuItem onClick={handleClose}>Salsa</MenuItem>
+                <MenuItem onClick={handleClose}>Pepinitos</MenuItem>
                 <MenuItem onClick={handleClose}>Aceitunas</MenuItem>
                 <MenuItem onClick={handleClose}>Salsa</MenuItem>
                 <MenuItem onClick={handleClose}>Ajies</MenuItem>

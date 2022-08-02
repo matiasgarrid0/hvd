@@ -3,6 +3,7 @@ import { Home } from "./components/Home/Home";
 import { Routes, Route } from 'react-router-dom'
 import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
+import { Pickles } from "./components/Products/Pickles/Pickles";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/pickles" element={<Pickles />} />
       </Routes>
       <Footer />
     </div>

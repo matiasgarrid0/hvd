@@ -1,0 +1,50 @@
+.bg-pickles{
+    background-image: url(../../../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-title-pickles{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 8rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+}
+.container-elements-pickles{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-titles-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container-titles-img ul{
+    font-size: 1.2rem;
+    width: 100%;
+}
+.title-pickles{
+    font-size: 2rem;
+    margin-top: -3rem;
+    font-weight: 600;
+    color: var(--green);
+}
+.pres-pickles{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.pickles-image{
+    width: 30rem;
+}
