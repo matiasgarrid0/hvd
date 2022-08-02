@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import aceitunas from "../../images/aceituna.jpg";
 import fabrica from "../../images/fabrica.jpg";
 import pepinos from "../../images/pepinos.jpg";
@@ -9,13 +9,17 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Aos from "aos";
 
 import "./Slider.css";
 
 export const Slider = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="slider">
-      <div className="slider-container">
+      <div className="slider-container" data-aos="fade-right">
         <Swiper
           spaceBetween={30}
           effect={"fade"}

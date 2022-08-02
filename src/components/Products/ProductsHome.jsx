@@ -14,16 +14,16 @@ export const ProductsHome = () => {
   return (
     <div className="st-div-products-home">
       <div className="products-home-container">
-        <p data-aos="fade-up" className="p-title-products-home">
+        <p className="p-title-products-home">
           Producimos gran variedad de productos de la mejor calidad
         </p>
         <p className="title-2nd-products-home">
           Conoce nuestros productos en todos sus tamaños
         </p>
-        <div data-aos="fade-right" className="container-cards-products-home">
+        <div data-aos="fade-up" className="container-cards-products-home">
           <div className="card-products-home">
             <img className="img-products-home" src={Pickles} alt="pickles" />
-            <button className="button-products-home">Pickles</button>
+            <button data-aos="flip-up" className="button-products-home">Pickles</button>
           </div>
           <div className="card-products-home">
             <img className="img-products-home" src={Antipasto} alt="antipasto" />
@@ -33,7 +33,7 @@ export const ProductsHome = () => {
           </div>
           <div className="card-products-home">
             <img className="img-products-home" src={Berenjena} alt="berenjena" />
-            <button className="button-products-home">Berenjena</button>
+            <button data-aos="flip-up" className="button-products-home">Berenjena</button>
           </div>
         </div>
         <button className="button-products-home">Conocé todos nuestros productos</button>
