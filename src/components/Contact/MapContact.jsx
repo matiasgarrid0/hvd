@@ -1,14 +1,15 @@
 import React from "react";
 
 export const MapContact = () => {
-  return (
+
+    return (
     <div>
       <div className="mapouter">
         <div className="gmap_canvas">
           <iframe
             className="map-google"
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=-34.54732856384533,%20-58.57467868565344&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=-33.0311345436961,%20-68.51223213098359&t=&z=18&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
             scrolling="no"
             marginheight="0"

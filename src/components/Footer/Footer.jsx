@@ -22,7 +22,7 @@ export const Footer = () => {
                 <div className='footer-info-elements-phone'>
                     <div>
                         <BsFillTelephoneFill className='elements-icon' />
-                        <span>(+54) 4720-5603</span>
+                        <span>(+54) 263 4462999</span>
                     </div>
                     <div>
                         <BsFillTelephoneFill className='elements-icon' />
@@ -32,25 +32,21 @@ export const Footer = () => {
                 <div className='footer-info-elements-email'>
                     <div>
                         <MdOutlineMailOutline className='elements-icon' />
-                        <span>sebastiandelescabe@gmail.com</span>
-                    </div>
-                    <div>
-                        <MdOutlineMailOutline className='elements-icon' />
-                        <span>matiasgarridodev@gmail.com</span>
+                        <span>info@encurtidoshorvindul.com.ar</span>
                     </div>
                 </div>
                 <div className='footer-info-elements-location'>
                     <div>
                         <GoLocation className='elements-icon' />
-                        <span>Durand 8000 – Los Corralitos</span>
+                        <span>Carril Chimba s/n - Palmira</span>
                     </div>
                     <div>
                         <GoLocation className='elements-icon' />
-                        <span>Guaymallén – CP.5527</span>
+                        <span>San Martín - CP 5584</span>
                     </div>
                     <div>
                         <GoLocation className='elements-icon' />
-                        <span>Mendoza -Argentina</span>
+                        <span>Mendoza - Argentina</span>
                     </div>
                 </div>
             </div>
